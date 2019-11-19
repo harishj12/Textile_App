@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CatlogDetails"
+    android:orientation="vertical">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <TextView
+        android:id="@+id/catlog_textview"
+        android:layout_width="match_parent"
+        android:layout_height="157dp"
+        android:text="Catlog Details"
+        android:textSize="36sp" />
+
+
+    <TextView
+        android:id="@+id/textview_design_no_c"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Design No" />
+
+    <TextView
+        android:id="@+id/get_designno_c"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/textview_design_name_c"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Design Name" />
+
+    <TextView
+        android:id="@+id/get_designname_c"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textview_color_c"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Color" />
+
+    <TextView
+        android:id="@+id/get_color_c"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textview_fabric_type_C"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fabric Type" />
+
+    <TextView
+        android:id="@+id/get_fabric_type_C"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+
+    <Button
+        android:id="@+id/enquirybutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ENQUIRY" />
+
+    <Button
+        android:id="@+id/orderbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ORDER" />
+
+
+
+
+</LinearLayout>

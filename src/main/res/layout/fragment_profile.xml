@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profile"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/catlog_textview"
+        android:layout_width="match_parent"
+        android:layout_height="152dp"
+        android:text="My Profile"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/textView_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name" />
+
+    <TextView
+        android:id="@+id/get_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:height="40sp" />
+
+    <TextView
+        android:id="@+id/textView_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="E-mail" />
+
+    <TextView
+        android:id="@+id/get_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:height="40sp" />
+
+    <TextView
+        android:id="@+id/textView_phoneno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone No." />
+
+    <TextView
+        android:id="@+id/get_phoneno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:height="40sp" />
+
+    <Button
+        android:id="@+id/changepassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Change Password" />
+
+    <Button
+        android:id="@+id/button_logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout" />
+
+
+
+
+</LinearLayout>

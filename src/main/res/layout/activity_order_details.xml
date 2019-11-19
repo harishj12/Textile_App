@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OrderDetails"
+    android:orientation="vertical">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <TextView
+        android:id="@+id/order_textview"
+        android:layout_width="match_parent"
+        android:layout_height="152dp"
+        android:text="Order Details"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/textView_designno_o"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Design No." />
+
+    <TextView
+        android:id="@+id/get_designno_o"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textview_design_name_o"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Design Name" />
+
+    <TextView
+        android:id="@+id/get_designname_o"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Color" />
+
+    <TextView
+        android:id="@+id/get_color_o"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView_noofpieces_o"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No. of Pieces" />
+
+    <TextView
+        android:id="@+id/get_noofpieces_o"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/paymentbutton_o"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PAYMENT" />
+
+
+
+</LinearLayout>
